@@ -30,7 +30,7 @@ The screenshots below come from the paired storefront that consumes this API.
 
 The production build is hosted and open for evaluation. You can test the full e-commerce flow.
 
-- Live app: [View live demo]()
+- Live app: [View live demo](https://greenherb-workspace.vercel.app/)
 
 > The backend runs on free-tier hosting and may take up to about a minute to wake up after inactivity.
 
