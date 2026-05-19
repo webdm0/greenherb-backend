@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19174F22-390E-43AC-8BBF-1E94040EFAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHerb.Api", "src\GreenHerb.Api\GreenHerb.Api.csproj", "{2282E18E-5E32-42BE-A66C-23A3C0D783ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F1507BFF-CCDE-4D95-B3EA-32C930BA7D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHerb.UnitTests", "tests\GreenHerb.UnitTests\GreenHerb.UnitTests.csproj", "{E06459FB-FA32-4D05-93FC-186EE2E02B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHerb.IntegrationTests", "tests\GreenHerb.IntegrationTests\GreenHerb.IntegrationTests.csproj", "{37D04665-7460-4FE2-A41E-721957A7D6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHerb.Domain", "src\GreenHerb.Domain\GreenHerb.Domain.csproj", "{67B51ECA-0478-41EF-A10B-2D480FFF6B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHerb.Application", "src\GreenHerb.Application\GreenHerb.Application.csproj", "{9593633B-CA4B-4825-B190-0D983E775A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHerb.Infrastructure", "src\GreenHerb.Infrastructure\GreenHerb.Infrastructure.csproj", "{6AB0CB41-FF66-4AE2-9F2F-8C7CB9561C0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2282E18E-5E32-42BE-A66C-23A3C0D783ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2282E18E-5E32-42BE-A66C-23A3C0D783ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2282E18E-5E32-42BE-A66C-23A3C0D783ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2282E18E-5E32-42BE-A66C-23A3C0D783ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06459FB-FA32-4D05-93FC-186EE2E02B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06459FB-FA32-4D05-93FC-186EE2E02B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06459FB-FA32-4D05-93FC-186EE2E02B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06459FB-FA32-4D05-93FC-186EE2E02B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D04665-7460-4FE2-A41E-721957A7D6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D04665-7460-4FE2-A41E-721957A7D6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D04665-7460-4FE2-A41E-721957A7D6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D04665-7460-4FE2-A41E-721957A7D6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B51ECA-0478-41EF-A10B-2D480FFF6B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B51ECA-0478-41EF-A10B-2D480FFF6B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B51ECA-0478-41EF-A10B-2D480FFF6B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B51ECA-0478-41EF-A10B-2D480FFF6B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9593633B-CA4B-4825-B190-0D983E775A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9593633B-CA4B-4825-B190-0D983E775A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9593633B-CA4B-4825-B190-0D983E775A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9593633B-CA4B-4825-B190-0D983E775A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB0CB41-FF66-4AE2-9F2F-8C7CB9561C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB0CB41-FF66-4AE2-9F2F-8C7CB9561C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB0CB41-FF66-4AE2-9F2F-8C7CB9561C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB0CB41-FF66-4AE2-9F2F-8C7CB9561C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2282E18E-5E32-42BE-A66C-23A3C0D783ED} = {19174F22-390E-43AC-8BBF-1E94040EFAC7}
+		{E06459FB-FA32-4D05-93FC-186EE2E02B8D} = {F1507BFF-CCDE-4D95-B3EA-32C930BA7D09}
+		{37D04665-7460-4FE2-A41E-721957A7D6EF} = {F1507BFF-CCDE-4D95-B3EA-32C930BA7D09}
+		{67B51ECA-0478-41EF-A10B-2D480FFF6B79} = {19174F22-390E-43AC-8BBF-1E94040EFAC7}
+		{9593633B-CA4B-4825-B190-0D983E775A91} = {19174F22-390E-43AC-8BBF-1E94040EFAC7}
+		{6AB0CB41-FF66-4AE2-9F2F-8C7CB9561C0B} = {19174F22-390E-43AC-8BBF-1E94040EFAC7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+@GreenHerb.Api_HostAddress = http://localhost:5187
+@ContentType = application/json
+
+GET {{GreenHerb.Api_HostAddress}}/healthz
+Accept: application/json
+
+###
+
+POST {{GreenHerb.Api_HostAddress}}/api/auth/register
+Content-Type: {{ContentType}}
+
+{
+  "username": "alice_store",
+  "email": "alice@example.com",
+  "password": "strong-password"
+}
+
+###
+
+POST {{GreenHerb.Api_HostAddress}}/api/auth/login
+Content-Type: {{ContentType}}
+
+{
+  "identifier": "alice_store",
+  "password": "strong-password"
+}
+
+###
+
+GET {{GreenHerb.Api_HostAddress}}/api/auth/session
+Accept: application/json
+
+###
+
+POST {{GreenHerb.Api_HostAddress}}/api/auth/refresh
+Accept: application/json
+
+###
+
+POST {{GreenHerb.Api_HostAddress}}/api/auth/logout
+Accept: application/json
+
+###

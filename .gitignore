@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+**/.env
+**/.env.*
+!**/.env.example
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+TestResults/
